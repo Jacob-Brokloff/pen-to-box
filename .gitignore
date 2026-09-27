@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+assets/act*.onnx
+evidence/*.png
+evidence/*.log
+__pycache__/
+evidence/
+analyze-diagnostic.py
+check-browser.mjs
+compress_model.py
+diagnose-server.py
+export_model.py
+inference-worker.js
+replay-diagnostic.mjs
+review.md
+verify-calibration.mjs

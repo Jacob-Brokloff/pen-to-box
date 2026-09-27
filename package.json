@@ -1,0 +1,13 @@
+{
+  "name": "pen-to-box",
+  "description": "Browser-based SO-101 pen-to-box demonstration",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 serve.py"
+  },
+  "dependencies": {
+    "@mujoco/mujoco": "3.14.0",
+    "three": "0.186.1"
+  }
+}

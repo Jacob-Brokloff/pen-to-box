@@ -1,0 +1,51 @@
+{
+  "home": [
+    0.0023015332024452257,
+    -1.8978599608270592,
+    1.6706225060446978,
+    0.7798365795755001,
+    -0.003835888497359159,
+    -0.21312209038412613
+  ],
+  "recordedStart": [
+    0.1318681389093399,
+    -104.48351287841797,
+    96.48351287841797,
+    56.61538314819336,
+    -0.21978022158145905,
+    0.7333333492279053
+  ],
+  "cameraPosition": [
+    0.04,
+    -0.51,
+    0.68
+  ],
+  "cameraTarget": [
+    0.04,
+    0.085,
+    0.025
+  ],
+  "cameraFov": 48,
+  "penStart": [
+    0.050562077220579746,
+    -0.041698255272983195,
+    0.0047
+  ],
+  "notes": "Image-fitted approximate calibration using episode 0 poses and local JBit Arm motor scaling. Joint offsets/cameras/object dimensions estimated, not physically measured. Recorded replay validated; ACT task success evaluated separately.",
+  "jointOffsets": [
+    0.0,
+    -0.0742786470487679,
+    -0.013332467574047232,
+    -0.20828826363858674,
+    0.0,
+    -0.23
+  ],
+  "jointScales": [
+    0.017453292519943295,
+    0.017453292519943295,
+    0.017453292519943295,
+    0.017453292519943295,
+    0.017453292519943295,
+    0.023015330795529615
+  ]
+}

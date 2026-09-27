@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An ACT model trained through imitation learning with a LeRobot SO-101 leader and follower arm.">
+<title>Pen to Box · SO-101</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css?v=20260927b">
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+<main>
+<section class="intro" aria-label="About the model">
+  <p class="summary">An ACT model trained through imitation learning on pen-to-box demonstrations using a LeRobot SO-101 leader and follower arm.</p>
+  <div class="links"><a href="https://huggingface.co/Jacob-Brokloff/act_2026-09-25_15-17-46" target="_blank" rel="noopener noreferrer">ACT model ↗</a><a href="https://huggingface.co/datasets/Jacob-Brokloff/SIO_101_Updated_Pen_Box_Combined_50" target="_blank" rel="noopener noreferrer">Training dataset ↗</a></div>
+</section>
+<section class="sim-block" aria-label="Simulation">
+  <div id="stage" aria-label="Interactive 3D robot simulation">
+    <canvas id="view" aria-label="SO-101 robot, pen, and box simulation"></canvas>
+    <span id="status" role="status" aria-live="polite">Loading…</span>
+  </div>
+  <nav aria-label="Simulation controls"><div class="buttons"><button id="replay" disabled>Replay demo</button><button id="reset" disabled>Reset</button></div></nav>
+</section>
+<section class="recordings" aria-label="Demonstration recordings">
+  <div class="video-grid">
+    <figure><video controls preload="metadata" playsinline poster="media/overhead-poster.jpg" aria-label="Overhead view of the real robot demonstration"><source src="media/overhead.mp4" type="video/mp4">Your browser does not support video.</video></figure>
+    <figure><video controls preload="metadata" playsinline poster="media/wrist-poster.jpg" aria-label="Wrist camera view of the real robot demonstration"><source src="media/wrist.mp4" type="video/mp4">Your browser does not support video.</video></figure>
+  </div>
+</section>
+</main>
+<script type="module" src="app.js?v=20260926c"></script>
+</body>
+</html>
