@@ -4,10 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "python3 serve.py"
+    "start": "python3 serve.py",
+    "build": "node scripts/build.mjs",
+    "preview:cloudflare": "npm run build && wrangler dev"
   },
   "dependencies": {
     "@mujoco/mujoco": "3.14.0",
     "three": "0.186.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.141.0"
   }
 }
